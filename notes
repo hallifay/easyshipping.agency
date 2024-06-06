@@ -1,0 +1,101 @@
+.head {
+    color: white;
+    font-family: verdana;
+    font-size: 300%;
+    background-color: linear-gredident(lightblue, LightGray);
+    image-align: center; 
+  }
+  
+  h2 {
+     text-align: center;
+  
+  }
+  body {
+      background-image: url(blue-gradient-background.webp)
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      margin: 40px;
+  }
+          
+  p  {
+    color: navy blue;
+    font-family: momospace;
+    font-size: 120%;
+  
+  }
+  .myDiv {
+    border: 2px outset red;
+    background-color: #00ccff;    
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  p2 {
+     color:navy blue;
+     font-size:25px;
+     text-align:center;
+  }
+  
+  p3 {
+     font-size: 20px;
+     text-align: center;
+  }
+  th {
+     padding: 5px;
+     text-align: left;
+  }
+   
+  tr:nth-child(odd),td:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: lavender;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: blue;
+  }
+
+
+
+  <button type="button" onclick="myFunction()">Click Me!</button>
+
+
+
+
+<img src="temaport.jpg" alt="tema" title="Tema Port" width="400" height="250">
+
+<img src="port.jpg" alt="Vessel" title="Tema Port" width="400" height="250">
+</div>
+<br>
+<hr><br>
+
+<p id="demo"></p>
+<br><br><br><br><br><br>
+
+<p id="remo">JavaScript can change the style of an HTML element.</p>
+<script>
+function myFunction() {
+  document.getElementById("remo").style.fontSize = "25px"; 
+  document.getElementById("remo").style.color = "red";
+  document.getElementById("remo").style.backgroundColor = "yellow";        
+}
+</script>
